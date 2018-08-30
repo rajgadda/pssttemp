@@ -1,0 +1,7 @@
+# Bash
+# Run a Bash script on macOS, Linux, or Windows
+- task: Bash@3
+  inputs:
+export param_list="-JUsers=${TEST_USERS} -JDuration=${TEST_DURATION} -JHomePage=${HOMEPAGE} -JPDP=${PDP} -JPLP=${PLP} -JAddToCart=${ADDTOCART} -JViewBag=${VIEWBAG}"
+
+sh /root/Raj_Jmeter/Script1_Jmeter.sh
